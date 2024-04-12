@@ -16,14 +16,14 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  border-radius: var(--br-smi);
-  background-color: var(--white);
+  border-radius: 13px;
+  background-color: #fff;
   display: none;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: var(--padding-7xs) var(--padding-6xs);
-  gap: var(--gap-11xs);
+  padding: 6px 7px;
+  gap: 2px;
   z-index: 0;
 }
 .heart-icon2 {
@@ -54,10 +54,10 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-3xs) 0 var(--padding-84xl);
+  padding: 10px 0 103px;
   box-sizing: border-box;
   position: relative;
-  gap: var(--gap-3xs);
+  gap: 10px;
   background-image: url(/public/frame-91@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -71,9 +71,9 @@
 }
 .bridlepath-ontario-canada1 {
   position: relative;
-  font-size: var(--font-size-sm);
+  font-size: 14px;
   letter-spacing: 0.02em;
-  color: var(--light-text);
+  color: #787878;
   white-space: nowrap;
 }
 .urban-loft {
@@ -81,7 +81,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-9xs);
+  gap: 4px;
 }
 .simcoe-ontario {
   height: 10px;
@@ -106,15 +106,15 @@
 .urban-loft1 {
   flex-direction: row;
   align-items: center;
-  gap: var(--gap-8xs);
-  font-size: var(--font-size-sm);
+  gap: 5px;
+  font-size: 14px;
 }
 .brightwoods-estate {
   align-self: stretch;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 var(--padding-14xl-3) 0 0;
-  gap: var(--gap-xs);
+  padding: 0 33.3px 0 0;
+  gap: 12px;
 }
 .div2,
 .night2 {
@@ -130,8 +130,8 @@
 }
 .night2 {
   height: 10px;
-  font-size: var(--font-size-sm);
-  color: var(--light-text);
+  font-size: 14px;
+  color: #787878;
   min-width: 37px;
 }
 .michelle-review-card1,
@@ -142,10 +142,10 @@
   justify-content: flex-start;
 }
 .parent1 {
-  gap: var(--gap-11xs);
+  gap: 2px;
 }
 .michelle-review-card1 {
-  color: var(--accent);
+  color: #00c29f;
 }
 .similar-stays-parent,
 .staycard {
@@ -157,25 +157,25 @@
 }
 .similar-stays-parent {
   flex-direction: column;
-  padding: var(--padding-base);
-  gap: var(--gap-xl);
+  padding: 16px;
+  gap: 20px;
   min-width: 164px;
-  font-size: var(--font-size-base);
-  color: var(--dark);
+  font-size: 16px;
+  color: #171e1d;
 }
 .staycard {
-  border-radius: var(--br-3xs);
-  background-color: var(--white);
-  border: 1px solid var(--light-grey-border);
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e8ecf2;
   overflow: hidden;
   flex-direction: row;
   min-width: 325px;
   max-width: 100%;
   row-gap: 20px;
   text-align: left;
-  font-size: var(--font-size-xs);
-  color: var(--accent);
-  font-family: var(--font-archivo);
+  font-size: 12px;
+  color: #00c29f;
+  font-family: Archivo;
 }
 @media screen and (max-width: 450px) {
   .frame-parent7 {

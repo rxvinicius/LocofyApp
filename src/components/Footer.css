@@ -5,7 +5,7 @@
 }
 .support {
   margin: 0;
-  font-size: var(--font-size-xl);
+  font-size: 20px;
   font-weight: 600;
   font-family: inherit;
   min-width: 75px;
@@ -30,9 +30,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-xl) var(--padding-xl) 0 0;
+  padding: 20px 20px 0 0;
   box-sizing: border-box;
-  gap: var(--gap-sm);
+  gap: 14px;
   min-width: 315px;
   max-width: 100%;
 }
@@ -43,7 +43,7 @@
 }
 .hosting {
   margin: 0;
-  font-size: var(--font-size-xl);
+  font-size: 20px;
   font-weight: 600;
   font-family: inherit;
   min-width: 73px;
@@ -73,9 +73,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-xl) var(--padding-xl) 0 0;
+  padding: 20px 20px 0 0;
   box-sizing: border-box;
-  gap: var(--gap-sm);
+  gap: 14px;
   min-width: 315px;
   max-width: 100%;
 }
@@ -86,7 +86,7 @@
 }
 .localhost {
   margin: 0;
-  font-size: var(--font-size-xl);
+  font-size: 20px;
   font-weight: 600;
   font-family: inherit;
   min-width: 92px;
@@ -120,9 +120,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-xl) var(--padding-xl) 0 0;
+  padding: 20px 20px 0 0;
   box-sizing: border-box;
-  gap: var(--gap-sm);
+  gap: 14px;
   min-width: 315px;
   max-width: 100%;
 }
@@ -136,7 +136,7 @@
 .error-handler1 {
   flex: 1;
   justify-content: flex-start;
-  gap: var(--gap-3xs);
+  gap: 10px;
   max-width: 100%;
 }
 .condition-handler,
@@ -150,17 +150,17 @@
 }
 .footer {
   align-self: stretch;
-  background-color: var(--light-bg);
-  border-top: 1px solid var(--light-grey-border);
+  background-color: #f4f4f4;
+  border-top: 1px solid #e8ecf2;
   box-sizing: border-box;
   justify-content: center;
-  padding: var(--padding-xl) var(--padding-61xl);
+  padding: 20px 80px;
   min-height: 288px;
   max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--dark);
-  font-family: var(--font-archivo);
+  font-size: 16px;
+  color: #171e1d;
+  font-family: Archivo;
 }
 @media screen and (max-width: 1275px) {
   .error-handler1 {
@@ -172,8 +172,8 @@
 }
 @media screen and (max-width: 750px) {
   .footer {
-    padding-left: var(--padding-21xl);
-    padding-right: var(--padding-21xl);
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
   }
 }
@@ -181,6 +181,6 @@
   .hosting,
   .localhost,
   .support {
-    font-size: var(--font-size-base);
+    font-size: 16px;
   }
 }

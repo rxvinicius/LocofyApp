@@ -6,8 +6,8 @@ const SignInPage = () => {
   return (
     <div className="sign-in-page">
       <Header
-        notifications="/notifications@2x.png"
-        avatar="/avatar@2x.png"
+        notifications="/notifications1@2x.png"
+        avatar="/avatar1@2x.png"
         showLoginSection={false}
       />
       <main className="login-sections1">

@@ -7,7 +7,7 @@
 }
 .form-container {
   width: 589px;
-  border-radius: var(--br-5xs);
+  border-radius: 8px;
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-start;
@@ -15,7 +15,7 @@
 .login-sections1 {
   align-self: stretch;
   justify-content: center;
-  padding: var(--padding-184xl-5) var(--padding-xl);
+  padding: 203.5px 20px;
   box-sizing: border-box;
   background-image: url(/public/login-sections1@3x.png);
   background-size: cover;
@@ -50,7 +50,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .copyright-info,
 .localhost-inc-all-rights-res-container {
@@ -62,7 +62,7 @@
 .localhost-inc-all-rights-res-container {
   flex: 1;
   justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .copyright-info {
   width: 100%;
@@ -77,21 +77,21 @@
 }
 .band3 {
   align-self: stretch;
-  border-top: 1px solid var(--light-grey-border);
+  border-top: 1px solid #e8ecf2;
   align-items: center;
-  padding: var(--padding-xs) var(--padding-61xl);
+  padding: 12px 80px;
   max-width: 100%;
   z-index: 2;
   margin-top: -0.1px;
   text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--color-black);
-  font-family: var(--font-archivo);
+  font-size: 14px;
+  color: #000;
+  font-family: Archivo;
 }
 .sign-in-page {
   width: 100%;
   position: relative;
-  background-color: var(--color-gray-100);
+  background-color: #fafafa;
   overflow: hidden;
   align-items: flex-start;
   padding: 0 0 0.1px;
@@ -115,7 +115,7 @@
 }
 @media screen and (max-width: 750px) {
   .login-sections1 {
-    gap: var(--gap-9xl);
+    gap: 28px;
     padding-bottom: 86px;
     box-sizing: border-box;
   }
@@ -123,8 +123,8 @@
     flex-wrap: wrap;
   }
   .band3 {
-    padding-left: var(--padding-21xl);
-    padding-right: var(--padding-21xl);
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
   }
 }

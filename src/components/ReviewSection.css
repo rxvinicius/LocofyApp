@@ -13,10 +13,10 @@
 }
 .button1 {
   width: 60px;
-  font-size: var(--font-size-base);
+  font-size: 16px;
   letter-spacing: 0.46px;
   line-height: 26px;
-  color: var(--accent);
+  color: #00c29f;
   text-align: center;
   min-width: 60px;
 }
@@ -26,7 +26,7 @@
   align-self: stretch;
   display: flex;
   align-items: flex-start;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .image-stack {
   flex-direction: row;
@@ -40,18 +40,18 @@
 .circle-container {
   flex-direction: row;
   flex-wrap: wrap;
-  font-size: var(--font-size-base);
+  font-size: 16px;
 }
 .review-section {
   flex-direction: column;
   text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--dark);
-  font-family: var(--font-archivo);
+  font-size: 24px;
+  color: #171e1d;
+  font-family: Archivo;
 }
 @media screen and (max-width: 450px) {
   .reviews1 {
-    font-size: var(--font-size-lgi);
+    font-size: 19px;
   }
   .image-stack {
     flex-wrap: wrap;

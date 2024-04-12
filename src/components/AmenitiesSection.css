@@ -15,7 +15,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-3xs);
+  gap: 10px;
 }
 .tablertools-kitchen-2-icon {
   height: 20px;
@@ -35,7 +35,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-3xs);
+  gap: 10px;
 }
 .material-symbolsnest-cam-iq-o-icon {
   height: 20px;
@@ -54,7 +54,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-3xs);
+  gap: 10px;
 }
 .ionwifi-icon {
   height: 20px;
@@ -75,18 +75,18 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-3xs);
+  gap: 10px;
 }
 .amenitiessection1 {
   flex: 1;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 var(--padding-3xl-3) 0 0;
+  padding: 0 22.3px 0 0;
   box-sizing: border-box;
-  gap: var(--gap-sm);
+  gap: 14px;
   min-width: 195px;
   text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--dark);
-  font-family: var(--font-archivo);
+  font-size: 16px;
+  color: #171e1d;
+  font-family: Archivo;
 }

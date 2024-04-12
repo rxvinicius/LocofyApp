@@ -20,8 +20,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: var(--padding-5xl) var(--padding-61xl);
-  gap: var(--gap-3xl);
+  padding: 24px 80px;
+  gap: 22px;
 }
 .contact-us,
 .localhost-inc-all,
@@ -53,7 +53,7 @@
 }
 .data-merger {
   justify-content: flex-start;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .data-combiner,
 .data-dispenser {
@@ -62,7 +62,7 @@
 .data-combiner {
   flex: 1;
   justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .data-dispenser {
   width: 100%;
@@ -77,30 +77,30 @@
 }
 .band {
   align-self: stretch;
-  border-top: 1px solid var(--light-grey-border);
+  border-top: 1px solid #e8ecf2;
   box-sizing: border-box;
-  padding: var(--padding-xs) var(--padding-61xl);
+  padding: 12px 80px;
   max-width: 100%;
 }
 .homepage {
   width: 100%;
   position: relative;
-  background-color: var(--color-gray-100);
+  background-color: #fafafa;
   overflow: hidden;
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--color-black);
-  font-family: var(--font-archivo);
+  font-size: 14px;
+  color: #000;
+  font-family: Archivo;
 }
 @media screen and (max-width: 1275px) {
   .homes {
     max-width: 100%;
   }
   .stays-section {
-    padding-top: var(--padding-xl);
-    padding-bottom: var(--padding-xl);
+    padding-top: 20px;
+    padding-bottom: 20px;
     box-sizing: border-box;
   }
   .data-combiner,
@@ -110,16 +110,16 @@
 }
 @media screen and (max-width: 750px) {
   .stays-section {
-    padding-left: var(--padding-21xl);
-    padding-right: var(--padding-21xl);
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
   }
   .data-combiner {
     flex-wrap: wrap;
   }
   .band {
-    padding-left: var(--padding-21xl);
-    padding-right: var(--padding-21xl);
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
   }
 }

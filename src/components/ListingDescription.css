@@ -12,49 +12,49 @@
   margin-block-end: 17px;
 }
 .living-space {
-  font-family: var(--font-archivo);
+  font-family: Archivo;
 }
 .living-space-this-charming-ca {
   margin-block-start: 0;
   margin-block-end: 17px;
 }
 .bedrooms {
-  font-family: var(--font-archivo);
+  font-family: Archivo;
 }
 .bedrooms-with-3-beautifully-a {
   margin-block-start: 0;
   margin-block-end: 17px;
 }
 .kitchen-dining {
-  font-family: var(--font-archivo);
+  font-family: Archivo;
 }
 .kitchen-dining-our-fully-eq {
   margin-block-start: 0;
   margin-block-end: 17px;
 }
 .bathrooms {
-  font-family: var(--font-archivo);
+  font-family: Archivo;
 }
 .bathrooms-2-modern-bathrooms {
   margin-block-start: 0;
   margin-block-end: 17px;
 }
 .outdoor-space {
-  font-family: var(--font-archivo);
+  font-family: Archivo;
 }
 .outdoor-space-step-outside-to {
   margin-block-start: 0;
   margin-block-end: 17px;
 }
 .location {
-  font-family: var(--font-archivo);
+  font-family: Archivo;
 }
 .location-located-just-minutes {
   margin-block-start: 0;
   margin-block-end: 17px;
 }
 .hosted-with-love {
-  font-family: var(--font-archivo);
+  font-family: Archivo;
 }
 .hosted-with-love-we-take-prid {
   margin-block-start: 0;
@@ -79,7 +79,7 @@
   letter-spacing: 0.46px;
   line-height: 26px;
   font-weight: 600;
-  color: var(--accent);
+  color: #00c29f;
   text-align: center;
   display: inline-block;
   min-width: 88px;
@@ -87,7 +87,7 @@
 .sequence {
   flex: 1;
   flex-direction: column;
-  gap: var(--gap-21xl);
+  gap: 40px;
   min-width: 539px;
 }
 .listing-description,
@@ -101,29 +101,29 @@
 }
 .variable {
   flex-direction: column;
-  padding: 0 var(--padding-120xl) 0 0;
+  padding: 0 139px 0 0;
   box-sizing: border-box;
-  gap: var(--gap-5xl);
+  gap: 24px;
   min-width: 470px;
-  font-size: var(--font-size-lg);
+  font-size: 18px;
 }
 .listing-description,
 .loop {
   align-self: stretch;
   flex-direction: row;
-  gap: var(--gap-21xl);
-  font-size: var(--font-size-base);
+  gap: 40px;
+  font-size: 16px;
 }
 .listing-description {
-  border-bottom: 1px solid var(--light-grey-border);
+  border-bottom: 1px solid #e8ecf2;
   box-sizing: border-box;
   flex-direction: column;
-  padding: 0 0 var(--padding-5xl);
-  gap: var(--gap-xl);
+  padding: 0 0 24px;
+  gap: 20px;
   text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--dark);
-  font-family: var(--font-archivo);
+  font-size: 24px;
+  color: #171e1d;
+  font-family: Archivo;
 }
 @media screen and (max-width: 1275px) {
   .variable {
@@ -141,14 +141,14 @@
     min-width: 100%;
   }
   .loop {
-    gap: var(--gap-xl);
+    gap: 20px;
   }
 }
 @media screen and (max-width: 450px) {
   .about-this-home {
-    font-size: var(--font-size-lgi);
+    font-size: 19px;
   }
   .sequence {
-    gap: var(--gap-xl);
+    gap: 20px;
   }
 }

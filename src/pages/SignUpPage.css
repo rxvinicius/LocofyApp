@@ -14,9 +14,9 @@
   background-color: transparent;
   align-self: stretch;
   height: 51px;
-  font-family: var(--font-archivo);
-  font-size: var(--font-size-base);
-  color: var(--light-text);
+  font-family: Archivo;
+  font-size: 16px;
+  color: #787878;
 }
 .form-fields {
   align-self: stretch;
@@ -24,14 +24,14 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-base-7);
+  gap: 15.7px;
 }
 .search-flights-button {
   width: 160px;
   height: 52px;
 }
 .search-flights-button:hover {
-  background-color: var(--color-saddlebrown);
+  background-color: #975b00;
 }
 .form1 {
   margin: 0;
@@ -40,7 +40,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-7xl-7);
+  gap: 26.7px;
   max-width: 100%;
 }
 .form-wrapper,
@@ -59,7 +59,7 @@
 .social-login-container {
   flex: 1;
   position: relative;
-  border-top: 1.6px solid var(--color-whitesmoke-200);
+  border-top: 1.6px solid #ececec;
 }
 .create-account-parent,
 .social-login-container-wrapper {
@@ -77,15 +77,15 @@
 }
 .create-account-parent {
   flex-direction: column;
-  gap: var(--gap-5xl);
+  gap: 24px;
 }
 .login {
-  color: var(--accent);
+  color: #00c29f;
 }
 .i-already-have-container {
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-base);
+  font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 26px;
   text-align: center;
@@ -100,10 +100,10 @@
 }
 .form {
   flex: 1;
-  background-color: var(--white);
+  background-color: #fff;
   flex-direction: column;
   justify-content: flex-start;
-  padding: var(--padding-21xl) var(--padding-29xl);
+  padding: 40px 48px;
   box-sizing: border-box;
   gap: 37.7px;
 }
@@ -113,7 +113,7 @@
 }
 .confirm-password-field {
   width: 589px;
-  border-radius: var(--br-5xs);
+  border-radius: 8px;
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-start;
@@ -121,16 +121,16 @@
 .login-sections {
   align-self: stretch;
   justify-content: center;
-  padding: 170.1px var(--padding-xl) 170.2px;
+  padding: 170.1px 20px 170.2px;
   box-sizing: border-box;
   background-image: url(/public/login-sections@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: var(--font-size-7xl);
-  color: var(--dark);
-  font-family: var(--font-archivo);
+  font-size: 26px;
+  color: #171e1d;
+  font-family: Archivo;
 }
 .contact-us2,
 .localhost-inc-all2,
@@ -158,7 +158,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .band-child,
 .localhost-inc-all-rights-res-group {
@@ -170,7 +170,7 @@
 .localhost-inc-all-rights-res-group {
   flex: 1;
   justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .band-child {
   width: 100%;
@@ -184,20 +184,20 @@
 }
 .band2 {
   align-self: stretch;
-  border-top: 1px solid var(--light-grey-border);
+  border-top: 1px solid #e8ecf2;
   box-sizing: border-box;
   align-items: center;
-  padding: var(--padding-xs) var(--padding-61xl);
+  padding: 12px 80px;
   max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--color-black);
-  font-family: var(--font-archivo);
+  font-size: 14px;
+  color: #000;
+  font-family: Archivo;
 }
 .sign-up-page {
   width: 100%;
   position: relative;
-  background-color: var(--color-gray-100);
+  background-color: #fafafa;
   overflow: hidden;
   align-items: flex-start;
   line-height: normal;
@@ -214,35 +214,35 @@
 }
 @media screen and (max-width: 1100px) {
   .login-sections {
-    padding-top: var(--padding-92xl);
-    padding-bottom: var(--padding-92xl);
+    padding-top: 111px;
+    padding-bottom: 111px;
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 750px) {
   .form {
-    gap: var(--gap-lgi);
-    padding: var(--padding-7xl) var(--padding-5xl);
+    gap: 19px;
+    padding: 26px 24px;
     box-sizing: border-box;
   }
   .login-sections {
-    gap: var(--gap-9xl);
-    padding-top: var(--padding-53xl);
-    padding-bottom: var(--padding-53xl);
+    gap: 28px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     box-sizing: border-box;
   }
   .localhost-inc-all-rights-res-group {
     flex-wrap: wrap;
   }
   .band2 {
-    padding-left: var(--padding-21xl);
-    padding-right: var(--padding-21xl);
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
   .create-account {
-    font-size: var(--font-size-2xl);
+    font-size: 21px;
   }
   .privacy-policy-group {
     flex-wrap: wrap;

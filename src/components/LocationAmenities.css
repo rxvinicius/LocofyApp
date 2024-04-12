@@ -15,14 +15,14 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-11xl);
+  gap: 30px;
 }
 .search-flights-button2 {
   width: 185px;
   height: 48px;
 }
 .search-flights-button2:hover {
-  background-color: var(--color-saddlebrown);
+  background-color: #975b00;
 }
 .generator,
 .multiplier {
@@ -33,12 +33,12 @@
 }
 .multiplier {
   align-self: stretch;
-  gap: var(--gap-12xl);
-  font-size: var(--font-size-base);
+  gap: 31px;
+  font-size: 16px;
 }
 .generator {
   flex: 1;
-  gap: var(--gap-xl);
+  gap: 20px;
   min-width: 547px;
   max-width: 100%;
 }
@@ -68,16 +68,16 @@
 .design {
   flex-direction: row;
   align-items: center;
-  gap: var(--gap-7xs);
-  font-size: var(--font-size-base);
+  gap: 6px;
+  font-size: 16px;
 }
 .analysis {
   width: 326px;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 var(--padding-xl) 0 0;
+  padding: 0 20px 0 0;
   box-sizing: border-box;
-  gap: var(--gap-8xs);
+  gap: 5px;
   max-width: 100%;
 }
 .suncloud-icon {
@@ -97,8 +97,8 @@
   min-width: 38px;
 }
 .weather-detail {
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-200);
+  font-size: 14px;
+  color: #7a7a7a;
   min-width: 93px;
   white-space: nowrap;
 }
@@ -112,14 +112,14 @@
   flex: 1;
   flex-direction: column;
   padding: 0;
-  gap: var(--gap-11xs);
+  gap: 2px;
 }
 .weather-info {
   width: 108px;
   flex-direction: row;
-  gap: var(--gap-3xs);
+  gap: 10px;
   text-align: left;
-  font-size: var(--font-size-base);
+  font-size: 16px;
 }
 .c,
 .sun-icon {
@@ -147,7 +147,7 @@
 .sun-parent {
   width: 40px;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .aug,
 .sun {
@@ -169,7 +169,7 @@
 .frame-parent1 {
   display: none;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .suncloud-icon1 {
   width: 40px;
@@ -195,7 +195,7 @@
 .suncloud-parent {
   width: 40px;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .aug1,
 .mon {
@@ -217,7 +217,7 @@
 .frame-parent2 {
   display: none;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .c2,
 .sun-icon1 {
@@ -245,7 +245,7 @@
 .sun-container {
   width: 40px;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .aug2,
 .tue {
@@ -267,7 +267,7 @@
 .frame-parent3 {
   display: none;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .suncloud-icon2 {
   width: 40px;
@@ -293,7 +293,7 @@
 .suncloud-group {
   width: 40px;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .aug3,
 .wed {
@@ -315,7 +315,7 @@
 .frame-parent4 {
   display: none;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .suncloud-icon3 {
   width: 40px;
@@ -341,7 +341,7 @@
 .suncloud-container {
   width: 40px;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .aug4,
 .thu {
@@ -363,7 +363,7 @@
 .frame-parent5 {
   display: none;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .c5,
 .sun-icon2 {
@@ -391,7 +391,7 @@
 .sun-parent1 {
   width: 40px;
   align-items: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .fri,
 .sep {
@@ -415,18 +415,18 @@
 .frame-parent6 {
   display: none;
   flex-direction: column;
-  gap: var(--gap-5xs);
+  gap: 8px;
 }
 .template {
   width: 154px;
-  border-radius: var(--br-xs);
+  border-radius: 12px;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-11xs) 0;
+  padding: 2px 0;
   box-sizing: border-box;
-  gap: var(--gap-5xl);
+  gap: 24px;
   text-align: center;
-  font-size: var(--font-size-3xs);
+  font-size: 10px;
 }
 .model-child,
 .simulation {
@@ -439,12 +439,12 @@
   align-items: center;
   justify-content: space-between;
   row-gap: 20px;
-  gap: var(--gap-0);
+  gap: 0;
 }
 .model-child {
   height: 248px;
   position: relative;
-  border-radius: var(--br-5xs);
+  border-radius: 8px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
@@ -456,7 +456,7 @@
   margin: 0 !important;
   right: 12px;
   bottom: 161px;
-  border-radius: var(--br-9xs);
+  border-radius: 4px;
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
@@ -465,7 +465,7 @@
   align-self: stretch;
   flex-direction: column;
   position: relative;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .chart,
 .location-amenities,
@@ -483,11 +483,11 @@
 .location-amenities {
   align-self: stretch;
   flex-direction: row;
-  gap: var(--gap-lgi);
+  gap: 19px;
   text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--dark);
-  font-family: var(--font-archivo);
+  font-size: 24px;
+  color: #171e1d;
+  font-family: Archivo;
 }
 @media screen and (max-width: 1275px) {
   .chart {
@@ -513,12 +513,12 @@
 }
 @media screen and (max-width: 450px) {
   .amenities {
-    font-size: var(--font-size-lgi);
+    font-size: 19px;
   }
   .multiplier {
-    gap: var(--gap-mini);
+    gap: 15px;
   }
   .where-youll-be {
-    font-size: var(--font-size-lgi);
+    font-size: 19px;
   }
 }

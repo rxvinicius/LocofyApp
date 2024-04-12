@@ -1,5 +1,5 @@
 .host {
-  color: var(--accent);
+  color: #00c29f;
 }
 .find-a-host-container {
   position: relative;
@@ -10,7 +10,7 @@
 .discover-the-best {
   margin: 0;
   position: relative;
-  font-size: var(--font-size-xl);
+  font-size: 20px;
   line-height: 120%;
   font-weight: 300;
   font-family: inherit;
@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-5xs);
+  gap: 8px;
   max-width: 100%;
 }
 .autocompletebasic {
@@ -28,9 +28,9 @@
   background-color: transparent;
   height: 64px;
   flex: 1;
-  font-family: var(--font-roboto);
-  font-size: var(--font-size-sm);
-  color: var(--color-black);
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000;
   min-width: 356px;
   max-width: 100%;
 }
@@ -44,9 +44,9 @@
 .grouped-child {
   border: 0;
   background-color: transparent;
-  font-family: var(--font-roboto);
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-300);
+  font-family: Roboto;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.85);
 }
 .grouped {
   flex: 1;
@@ -54,7 +54,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-sm);
+  gap: 14px;
   min-width: 438px;
   max-width: 100%;
 }
@@ -64,17 +64,17 @@
 }
 .form2 {
   align-self: stretch;
-  border-radius: var(--br-3xs);
-  background-color: var(--white);
+  border-radius: 10px;
+  background-color: #fff;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.02);
-  border: 0.7px solid var(--light-grey-border);
+  border: 0.7px solid #e8ecf2;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: var(--padding-3xs) var(--padding-2xs);
-  gap: var(--gap-3xs);
+  padding: 10px 11px;
+  gap: 10px;
   max-width: 100%;
 }
 .error-handler,
@@ -87,7 +87,7 @@
 .log-manager {
   width: 100%;
   align-items: flex-start;
-  gap: var(--gap-5xl);
+  gap: 24px;
   max-width: 1280px;
 }
 .error-handler,
@@ -97,7 +97,7 @@
 }
 .error-handler {
   align-items: center;
-  padding: var(--padding-31xl) var(--padding-61xl) var(--padding-11xl);
+  padding: 50px 80px 30px;
   box-sizing: border-box;
   background-image: url(/public/error-handler@3x.png);
   background-size: cover;
@@ -107,9 +107,9 @@
 .hero-container {
   align-items: flex-start;
   text-align: left;
-  font-size: var(--font-size-21xl-4);
-  color: var(--color-black);
-  font-family: var(--font-archivo);
+  font-size: 40.4px;
+  color: #000;
+  font-family: Archivo;
 }
 @media screen and (max-width: 1275px) {
   .autocompletebasic,
@@ -126,7 +126,7 @@
 }
 @media screen and (max-width: 750px) {
   .find-a-host-container {
-    font-size: var(--font-size-13xl);
+    font-size: 32px;
     line-height: 36px;
   }
   .autocompletebasic {
@@ -155,18 +155,18 @@
     flex-direction: column;
   }
   .error-handler {
-    padding-left: var(--padding-21xl);
-    padding-right: var(--padding-21xl);
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
   .find-a-host-container {
-    font-size: var(--font-size-5xl);
+    font-size: 24px;
     line-height: 27px;
   }
   .discover-the-best {
-    font-size: var(--font-size-base);
+    font-size: 16px;
     line-height: 19px;
   }
 }

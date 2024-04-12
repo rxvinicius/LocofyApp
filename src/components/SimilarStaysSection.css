@@ -11,10 +11,10 @@
 }
 .button2 {
   width: 60px;
-  font-size: var(--font-size-base);
+  font-size: 16px;
   letter-spacing: 0.46px;
   line-height: 26px;
-  color: var(--accent);
+  color: #00c29f;
   text-align: center;
   display: inline-block;
   min-width: 60px;
@@ -25,7 +25,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .vector-icon5 {
   height: 10px;
@@ -45,14 +45,14 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  border-radius: var(--br-smi);
-  background-color: var(--white);
+  border-radius: 13px;
+  background-color: #fff;
   display: none;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: var(--padding-7xs) var(--padding-6xs);
-  gap: var(--gap-11xs);
+  padding: 6px 7px;
+  gap: 2px;
   z-index: 0;
 }
 .heart-icon3 {
@@ -83,10 +83,10 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-3xs) 0 var(--padding-84xl);
+  padding: 10px 0 103px;
   box-sizing: border-box;
   position: relative;
-  gap: var(--gap-3xs);
+  gap: 10px;
   background-image: url(/public/frame-93@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,7 +107,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-9xs);
+  gap: 4px;
 }
 .div3 {
   height: 10px;
@@ -132,15 +132,15 @@
 .parent2 {
   flex-direction: row;
   align-items: center;
-  gap: var(--gap-8xs);
-  font-size: var(--font-size-sm);
+  gap: 5px;
+  font-size: 14px;
 }
 .frame-parent10 {
   align-self: stretch;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 var(--padding-121xl-3) 0 0;
-  gap: var(--gap-xs);
+  padding: 0 140.3px 0 0;
+  gap: 12px;
 }
 .div4,
 .night3 {
@@ -156,8 +156,8 @@
 }
 .night3 {
   height: 10px;
-  font-size: var(--font-size-sm);
-  color: var(--light-text);
+  font-size: 14px;
+  color: #787878;
   min-width: 37px;
 }
 .frame-parent9,
@@ -169,22 +169,22 @@
   justify-content: flex-start;
 }
 .parent3 {
-  gap: var(--gap-11xs);
+  gap: 2px;
 }
 .frame-parent9,
 .frame-wrapper1 {
-  color: var(--accent);
+  color: #00c29f;
 }
 .frame-parent9 {
   flex: 1;
   flex-direction: column;
   align-items: flex-start;
-  padding: var(--padding-base);
+  padding: 16px;
   box-sizing: border-box;
-  gap: var(--gap-xl);
+  gap: 20px;
   min-width: 164px;
-  font-size: var(--font-size-base);
-  color: var(--dark);
+  font-size: 16px;
+  color: #171e1d;
 }
 .decision-tree,
 .similar-stays-section,
@@ -196,9 +196,9 @@
 }
 .staycard1 {
   flex: 1;
-  border-radius: var(--br-3xs);
-  background-color: var(--white);
-  border: 1px solid var(--light-grey-border);
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e8ecf2;
   box-sizing: border-box;
   overflow: hidden;
   flex-direction: row;
@@ -208,24 +208,24 @@
 .decision-tree,
 .similar-stays-section {
   align-self: stretch;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .decision-tree {
   flex-direction: row;
   flex-wrap: wrap;
-  font-size: var(--font-size-xs);
-  color: var(--accent);
+  font-size: 12px;
+  color: #00c29f;
 }
 .similar-stays-section {
   flex-direction: column;
   text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--dark);
-  font-family: var(--font-archivo);
+  font-size: 24px;
+  color: #171e1d;
+  font-family: Archivo;
 }
 @media screen and (max-width: 450px) {
   .similar-stays {
-    font-size: var(--font-size-lgi);
+    font-size: 19px;
   }
   .data-transformer {
     flex-wrap: wrap;
